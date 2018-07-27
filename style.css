@@ -95,32 +95,32 @@
     }
 
     #html,#css{
-        background-image: url("verde2.jpg");
+        background-image: url("verde.jpg");
         background-repeat: no-repeat;
         background-size: 70% 100%;
     }
     #javascript{
-        background-image: url("verde2.jpg");
+        background-image: url("verde.jpg");
         background-repeat: no-repeat;
         background-size: 60% 100%;
     }
     #ingles{
-        background-image: url("verde2.jpg");
+        background-image: url("verde.jpg");
         background-repeat: no-repeat;
         background-size: 80% 100%;
     }
     #sql, #bootstrap{
-        background-image: url("verde2.jpg");
+        background-image: url("verde.jpg");
         background-repeat: no-repeat;
         background-size: 60% 100%;
     }
     #gulp{
-        background-image: url("vermelho.jpg");
+        background-image: url("verde.jpg");
         background-repeat: no-repeat;
         background-size: 20% 100%; 
     }
     #sass, #nodejs, #linux{
-        background-image: url("vermelho.jpg");
+        background-image: url("verde.jpg");
         background-repeat: no-repeat;
         background-size: 40% 100%; 
     }
