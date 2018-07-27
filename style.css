@@ -33,6 +33,7 @@
     
     .row-1{
         background-color: #181B23;
+        height: 450px;
     }
     
     .block-1{
@@ -43,20 +44,25 @@
     .block-2{
         text-align: center;
         padding: 15px;
+        align-items: center;
     }
     
     .block-2 img{
-        width: 200px;
-        height: 200px;
+        
+        width: 250px;
+        height: 250px;
         border: 6px solid #2DC5FA;
         border-radius: 50%; 
         padding: 10px;
         background-color: #ffffff;
     }
-    
+    .block-3{
+        margin-top: -100px;
+    }
     .block-3 div{
         display: inline-block;
         padding: 0;
+        border: 2px solid red;
     }
     
     .block-3 li{
