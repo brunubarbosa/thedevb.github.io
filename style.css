@@ -49,15 +49,14 @@
     
     .block-2 img{
         
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border: 6px solid #2DC5FA;
         border-radius: 50%; 
         padding: 10px;
         background-color: #ffffff;
     }
     .block-3{
-        margin-top: -100px;
     }
     .block-3 div{
         display: inline-block;
@@ -80,6 +79,7 @@
     }
     
     .block-5 li{
+        box-shadow: 2px 2px 5px;
         list-style-type: none;
         display: inline;
         line-height: 3.0em;

@@ -24,7 +24,7 @@ function mostrarEsconder(curso){
             contCurso1 = 0
         }else{
             document.getElementById('descricaoCurso1').style.display = 'none'
-            contCurso1 = 1
+            contCurso1 = 1 
         }
 
     }else{
