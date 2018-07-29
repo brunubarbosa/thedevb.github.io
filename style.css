@@ -59,6 +59,9 @@
         padding: 0px;
         margin-bottom: 5px;
     }
+    .block-3 ul{
+        padding-left: 20px;
+    }
     .block-3 div{
         display: inline-block;
         padding: 0;
