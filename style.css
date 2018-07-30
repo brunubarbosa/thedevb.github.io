@@ -135,23 +135,44 @@
 }
 
 
-    .seta{
-        position: absolute;
-        padding-top: 5px;
-        padding-left: 5px;
-    }
+.seta{
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+}
 
-    #curso1{
-        display: inline;
-    }
-    #descricaoCurso1, #descricaoCurso2{
-        display:none;
-    }
-    .card{
-        box-shadow: 2px 2px 8px;
-        margin-bottom: 5px;
-        border:none;
-    }
-    .card:hover{
-        border: 1px solid rgba(0, 0, 0, 0.576);
-    }
+#curso1{
+    display: inline;
+}
+#descricaoCurso1, #descricaoCurso2{
+    display:none;
+}
+.card{
+    box-shadow: 2px 0px  10px;
+    margin-bottom: 15px;
+    border:none;
+    height: 374px;
+    
+}
+.card:hover{
+    border: 1px solid rgba(0, 0, 0, 0.576);
+}
+.card-body{
+    padding: 5px;
+    
+    
+}
+
+.card-text{
+    font-size: 80%;
+}
+.botaoProjeto{
+    width: 120px;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.centro{
+    text-align: center;
+    padding-bottom: 10px;
+}
