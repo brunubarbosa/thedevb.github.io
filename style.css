@@ -124,10 +124,15 @@
         background-repeat: no-repeat;
         background-size: 40% 100%; 
     }
-    #git, #sass, #gulp, #bootstrap{
+    #git, #sass{
         background-image: url("verde.jpg");
         background-repeat: no-repeat;
-        background-size: 90% 100%; 
+        background-size: 90% 100%;
+    }
+    #gulp, #bootstrap{
+        background-image: url("verde.jpg");
+        background-repeat: no-repeat;
+        background-size: 90% 100%;
     }
 
 #esconhderMostrar,#esconhderMostrar2{
