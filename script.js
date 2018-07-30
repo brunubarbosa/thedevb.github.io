@@ -16,6 +16,7 @@ function inicio(){
     document.getElementById('sass').onmouseover = function(){ partida(this.id)}
     document.getElementById('sql').onmouseover = function(){ partida(this.id)}
     document.getElementById('linux').onmouseover = function(){ partida(this.id)}
+    document.getElementById('git').onmouseover = function(){ partida(this.id)}
     document.getElementById('projeto1').onclick = function(){projeto1()}
     document.getElementById('projeto2').onclick = function(){projeto2()}
 }
@@ -66,91 +67,99 @@ class Tratamento{
         idGlobal = id
         switch(this.id){
             case "html":
-                this.html()
+                this.html('HTML')
                 break;
             case "css":
-                this.css()
+                this.css('CSS')
                 break;
             case "javascript":
-                this.javascript()
+                this.javascript('JavaScript')
                 break;
              case "nodejs":
-                this.nodejs()
+                this.nodejs('NodeJS')
                 break;
             case "gulp":
-                this.gulp()
+                this.gulp('Gulp')
                 break;
             case "ingles":
-                this.ingles()
+                this.ingles('Inglês')
                 break;
             case "bootstrap":
-                this.bootstrap()
+                this.bootstrap('Bootstrap')
                 break;
             case "sass":
-                this.sass()
+                this.sass('SASS')
                 break;
             case "sql":
-                this.sql()
+                this.sql('SQL')
                 break;
             case "linux":
-                this.linux()
+                this.linux('Linux')
+                break;
+            case "git":
+                this.git('Git')
                 break;
             
         }
     }
-    html(){
-        var txt = 'esse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para htmlesse é meu texto para html'
-        this.adicionarElemento(txt)
+    html(nome){
+        var txt = 'Conheço essa linguagem de marcação há um bom tempo, tenho muita facilidade para colocar projeto em prátia  e fazer um bom uso semântico das tags.'
+        this.adicionarElemento(txt,nome)
 
     }
-    css(){
-        var txt = 'esse é meu texto para css esse é meu texto para css esse é meu texto para css esse é meu texto para css esse é meu texto para css esse é meu texto para css esse é meu texto para css esse é meu texto para css esse é meu texto para css esse é meu texto para css '
-        this.adicionarElemento(txt)
+    css(nome){
+        var txt = 'Conheço os principais comandos para estilizar uma página com CSS, atualmente estou aprendendo a fazer além disso, estou aprendendo a fazer efeito visuais, coisas que só parecem ser possivel com uma linguagem de programação mas que o CSS se sai muito bem com o benefício de deixar a página mais leve'
+        this.adicionarElemento(txt,nome)
 
     }
-    javascript(){
-        var txt = 'esse é meu texto para js esse é meu texto para js esse é meu texto para js esse é meu texto para js esse é meu texto para js esse é meu texto para js esse é meu texto para js esse é meu texto para js esse é meu texto para js esse é meu texto para js esse é meu texto para js '
-        this.adicionarElemento(txt)
+    javascript(nome){
+        var txt = 'Minha linguagem de programação preferida, é onde eu aplico meu conhecimento em programação orientada a objetos e lógica de programação, manipulo o DOM e o BOM de uma pagina HTML e estou constantemente aprendendo novas coisas'
+        this.adicionarElemento(txt,nome)
 
     }
-    nodejs(){
-        var txt = 'esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs esse é meu texto para nodejs '
-        this.adicionarElemento(txt)
+    nodejs(nome){
+        var txt = 'Essa é a linguagem sever side em que eu mais me encanto, apesar de nesse começo de carreira profissional estar focado no client side eu conheço o básico da tecnologia e pretendo me aprofundar'
+        this.adicionarElemento(txt, nome)
 
     }
-    gulp(){
-        var txt = 'esse é meu texto para gulp esse é meu texto para gulp esse é meu texto para gulp esse é meu texto para gulp esse é meu texto para gulp esse é meu texto para gulp esse é meu texto para gulp esse é meu texto para gulp esse é meu texto para gulp'
-        this.adicionarElemento(txt)
+    gulp(nome){
+        var txt = 'Esse automatizado de tarefas é uma ferramenta incrível, entrou para minha lista de utilidades recentemente e é indispensável para projetos maiores onde o tempo precisa ser otimizado'
+        this.adicionarElemento(txt, nome)
 
     }
-    ingles(){
-        var txt = 'esse é meu texto para ingles esse é meu texto para ingles esse é meu texto para ingles esse é meu texto para ingles esse é meu texto para ingles esse é meu texto para ingles esse é meu texto para ingles esse é meu texto para ingles esse é meu texto para ingles '
-        this.adicionarElemento(txt)
+    ingles(nome){
+        var txt = 'Essa é a principal linguagem que um programador deve saber, com isso em mente venho aprendendo cada dia mais e pretendo alcançar a fluência em breve'
+        this.adicionarElemento(txt, nome)
 
     }
-    bootstrap(){
-        var txt = 'esse é meu texto para bs esse é meu texto para bs esse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bs '
-        this.adicionarElemento(txt)
+    bootstrap(nome){
+        var txt = 'Essa é minha preferida framework, com ela consigo ter uma página muito mais amigável em muito menos tempo, domino bem essa tecnologia e consigo fazer coisas incríveis com ela'
+        this.adicionarElemento(txt, nome)
 
     }
-    sass(){
-        var txt = 'esse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bsesse é meu texto para bs'
-        this.adicionarElemento(txt)
+    sass(nome){
+        var txt = 'Esse pré processador CSS me ajuda a otimizar meu tempo me permitindo usar lógica para escrever minah folha de estilos, gosto de usar em projetos grandes junto ao Gulp'
+        this.adicionarElemento(txt, nome)
 
     }
-    sql(){
-        var txt = 'esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql esse é meu texto para sql '
-        this.adicionarElemento(txt)
+    sql(nome){
+        var txt = 'Tenho conhecimento intermediário em banco de dados, conheço mais especificamente MySQL e SQL Server, domino os principais comandos de query'
+        this.adicionarElemento(txt, nome)
 
     }
-    linux(){
-        var txt = 'esse é meu texto para linux esse é meu texto para linux esse é meu texto para linux esse é meu texto para linux esse é meu texto para linux esse é meu texto para linux esse é meu texto para linux esse é meu texto para linux esse é meu texto para linux esse é meu texto para linux '
-        this.adicionarElemento(txt)
+    linux(nome){
+        var txt = 'Apesar de preferir o Windows para uso pessoal o linux em um ambiente de trabalho acaba tendo um melhor desempenho, atualmente utilizo linux apenas para fins de aprendizagem, mais especificamente linha de comandos'
+        this.adicionarElemento(txt, nome)
 
     }
-    adicionarElemento(txt){
+    git(nome){
+        var txt = 'Costumo usar Git em todos meus projetos, tanto para garantir versão anterior em caso de falhas quanto para fazer upload do mesmo no GitHub, uma ferramenta indispensável em qualquer projeto.'
+        this.adicionarElemento(txt,nome)
+    }
+
+    adicionarElemento(txt, nome){
         var conteudo = document.createTextNode(txt)
-        var titulo = document.createTextNode(idGlobal)
+        var titulo = document.createTextNode(nome)
         document.getElementById("adicionarElementoH3").innerHTML=""; 
         document.getElementById('adicionarElementoH3').appendChild(titulo)
         document.getElementById("adicionarElementoP").innerHTML=""; 
